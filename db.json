@@ -1,0 +1,76 @@
+{
+    "music": [
+      {
+        "id": 1,
+        "artist": "Aaliyah",
+        "image": "./images/aloe.jpg",
+        "album": "Aaliyah",
+        "genre": "R&B"
+      },
+      {
+        "id": 2,
+        "artist": "Eminem",
+        "image": "./images/aloe.jpg",
+        "album": "The Slim Shady LP",
+        "genre": "Hip-Hop"
+      },
+      {
+        "id": 3,
+        "artist": "Staind",
+        "image": "./images/aloe.jpg",
+        "album": "Break the Cycle",
+        "genre": "Rock"
+      },
+      {
+        "id": 4,
+        "artist": "Linkin Park",
+        "image": "./images/aloe.jpg",
+        "album": "Hybrid Theory",
+        "genre": "Rock"
+      },
+      {
+        "id": 5,
+        "artist": "Jay-Z",
+        "image": "./images/aloe.jpg",
+        "album": "The Blueprint",
+        "genre": "Hip-Hop"
+      },
+      {
+        "id": 6,
+        "artist": "Marshmello",
+        "image": "./images/aloe.jpg",
+        "album": "Joytime",
+        "genre": "EDM"
+      },
+      {
+        "id": 7,
+        "artist": "System of a Down",
+        "image": "./images/aloe.jpg",
+        "album": "Toxicity",
+        "genre": "Rock"
+      },
+      {
+        "id": 8,
+        "artist": "Eminem",
+        "image": "./images/aloe.jpg",
+        "album": "The Marshall Mathers LP",
+        "genre": "Hip-Hop"
+      },
+      {
+        "id": 9,
+        "artist": "System of a Down",
+        "image": "./images/aloe.jpg",
+        "album": "System of a Down",
+        "genre": "Rock"
+      },
+      {
+        "id": 10,
+        "artist": "Tiesto",
+        "image": "./images/aloe.jpg",
+        "album": "Kaleidoscope",
+        "genre": "EDM"
+      }
+      
+    ]
+  }
+  
