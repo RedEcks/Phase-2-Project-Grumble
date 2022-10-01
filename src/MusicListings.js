@@ -3,10 +3,10 @@ import MusicCards from "./MusicCards"
 
 function handleMusicListings({musicInfo}){
 
+    let songs=musicInfo.map((song)=><MusicCards song={song}/>)
+
     return (
-        <div>
-            <MusicCards musicInfo={musicInfo}/>
-        </div>
+        <ul className="cards">{songs}</ul>
     )
 
 }
