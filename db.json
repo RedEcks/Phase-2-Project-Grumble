@@ -3,70 +3,70 @@
       {
         "id": 1,
         "artist": "Aaliyah",
-        "image": "./images/aloe.jpg",
+        "image": "https://en.wikipedia.org/wiki/Aaliyah_(album)#/media/File:Aaliyah_2001.png",
         "album": "Aaliyah",
         "genre": "R&B"
       },
       {
         "id": 2,
         "artist": "Eminem",
-        "image": "./images/aloe.jpg",
+        "image": "https://en.wikipedia.org/wiki/The_Slim_Shady_LP#/media/File:Eminem_-_The_Slim_Shady_LP_CD_cover.jpg",
         "album": "The Slim Shady LP",
         "genre": "Hip-Hop"
       },
       {
         "id": 3,
         "artist": "Staind",
-        "image": "./images/aloe.jpg",
+        "image": "https://en.wikipedia.org/wiki/Break_the_Cycle#/media/File:Staind_Break_the_Cycle.jpg",
         "album": "Break the Cycle",
         "genre": "Rock"
       },
       {
         "id": 4,
         "artist": "Linkin Park",
-        "image": "./images/aloe.jpg",
+        "image": "https://en.wikipedia.org/wiki/Hybrid_Theory#/media/File:Linkin_Park_Hybrid_Theory_Album_Cover.jpg",
         "album": "Hybrid Theory",
         "genre": "Rock"
       },
       {
         "id": 5,
         "artist": "Jay-Z",
-        "image": "./images/aloe.jpg",
+        "image": "https://en.wikipedia.org/wiki/The_Blueprint#/media/File:The_Blueprint.png",
         "album": "The Blueprint",
         "genre": "Hip-Hop"
       },
       {
         "id": 6,
         "artist": "Marshmello",
-        "image": "./images/aloe.jpg",
+        "image": "https://en.wikipedia.org/wiki/Joytime#/media/File:Joytime_Album_Cover_Art.jpg",
         "album": "Joytime",
         "genre": "EDM"
       },
       {
         "id": 7,
         "artist": "System of a Down",
-        "image": "./images/aloe.jpg",
+        "image": "https://en.wikipedia.org/wiki/Toxicity_(album)#/media/File:SystemofaDownToxicityalbumcover.jpg",
         "album": "Toxicity",
         "genre": "Rock"
       },
       {
         "id": 8,
         "artist": "Eminem",
-        "image": "./images/aloe.jpg",
+        "image": "https://en.wikipedia.org/wiki/The_Marshall_Mathers_LP#/media/File:The_Marshall_Mathers_LP.jpg",
         "album": "The Marshall Mathers LP",
         "genre": "Hip-Hop"
       },
       {
         "id": 9,
         "artist": "System of a Down",
-        "image": "./images/aloe.jpg",
+        "image": "https://en.wikipedia.org/wiki/System_of_a_Down_(album)#/media/File:System_of_a_down.jpg",
         "album": "System of a Down",
         "genre": "Rock"
       },
       {
         "id": 10,
         "artist": "Tiesto",
-        "image": "./images/aloe.jpg",
+        "image": "https://en.wikipedia.org/wiki/Kaleidoscope_(Ti%C3%ABsto_album)#/media/File:Tiestokaleidoscope.jpg",
         "album": "Kaleidoscope",
         "genre": "EDM"
       }
