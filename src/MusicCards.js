@@ -1,7 +1,11 @@
 import React from "react";
 
-function handleMusicCards(){
-
+function handleMusicCards({song}){
+   return(
+        <li className="card">
+            <p>{song.artist}</p>
+        </li>
+    )
 
 }
 
