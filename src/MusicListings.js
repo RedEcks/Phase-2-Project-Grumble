@@ -1,6 +1,13 @@
 import React from "react";
+import MusicCards from "./MusicCards"
 
-function handleMusicListings(){
+function handleMusicListings({musicInfo}){
+
+    return (
+        <div>
+            <MusicCards musicInfo={musicInfo}/>
+        </div>
+    )
 
 }
 

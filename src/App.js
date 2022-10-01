@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from './Header'
-import MusicCards from './MusicCards'
-import MusicSearch from './MusicSearch'
+import MusicPage from './MusicPage'
 
 function App() {
   const [musicInfo, setMusicInfo]=useState([])
@@ -11,14 +10,13 @@ function App() {
   useEffect(()=>{
     fetch(" http://localhost:4000/music")
       .then((response)=>response.json())
-      .then((data)=>console.log("data",data))
+      .then((data)=>setMusicInfo(data))
   },[])
 
   return (
     <div className="App">
       <Header/>
-      <MusicSearch/>
-      <MusicCards/>
+      <MusicPage musicInfo={musicInfo}/>
     </div>
   );
 }
