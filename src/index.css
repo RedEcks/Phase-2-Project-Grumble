@@ -1,11 +1,23 @@
+:root {
+  --blue: rbg (blue);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Arial','Helvetica','sans-serif';
 }
+
+.card{
+  margin: 200px 15%;
+  width: 70%;
+  height: 300px;
+  border: 1px solid blue;
+  display: grid;
+  box-shadow: 12px 12px 24px #2a93b6,
+              -12px 12px 24px #4affff;
+}
+
+.image
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
