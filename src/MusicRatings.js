@@ -14,8 +14,10 @@ function HandleRatings(){
 
     return(
         <div className="ratings">
-                <button onClick={handleLikes}>{likes}</button>
-                <button onClick={handleDislikes}>{dislikes}</button>
+                <button onClick={handleLikes}>Like</button>
+                <p>{likes}</p>
+                <button onClick={handleDislikes}>Dislike</button>
+                <p>{dislikes}</p>
         </div>
     )
 }
