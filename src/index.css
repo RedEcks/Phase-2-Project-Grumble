@@ -13,11 +13,17 @@ body {
   height: 300px;
   border: 1px solid blue;
   display: grid;
+  line-height: 0.7;
+  border-radius: 30px;
   box-shadow: 12px 12px 24px #2a93b6,
               -12px 12px 24px #4affff;
 }
 
-.image
+.image{
+  float: left;
+  width: 25%;
+  display: 5px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

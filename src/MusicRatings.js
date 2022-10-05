@@ -1,23 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 
-function handleRatings(){
-    const [likes, setLikes]=useState([0])
-    const [dislikes,setDislikes]=useState([0])
+function HandleRatings(){
+    const [likes, setLikes]= useState(0);
+    const [dislikes,setDislikes]= useState(0);
 
-    function handlelikes(){
-        setLikes(likes + 1)
+    function handleLikes(){
+        setLikes(likes + 1);
     }
 
     function handleDislikes(){
-        setDislikes(dislikes + 1)
+        setDislikes(dislikes + 1);
     }
 
     return(
         <div className="ratings">
-            <div className="like" onClick={handlelikes}></div>
-            <div className="dislike" onClick={handleDislikes}></div>
+                <button onClick={handleLikes}>{likes}</button>
+                <button onClick={handleDislikes}>{dislikes}</button>
         </div>
     )
 }
 
-export default handleRatings;
+export default HandleRatings;
