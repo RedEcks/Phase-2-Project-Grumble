@@ -2,6 +2,7 @@ import React from "react";
 import MusicRatings from "./MusicRatings"
 
 function handleMusicCards({song}){
+    console.log('image',song.image)
    return(
         <li className="card">
             <img className="image" src={song.image} alt={song.artist} />

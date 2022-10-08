@@ -14,9 +14,9 @@ function HandleRatings(){
 
     return(
         <div className="ratings">
-                <button onClick={handleLikes}>Like</button>
+                <button onClick={handleLikes}><img src="https://www.macmillandictionary.com/external/slideshow/full/emoji_thumbs-up_full.jpg" height={30} width={30}/></button>
                 <p>{likes}</p>
-                <button onClick={handleDislikes}>Dislike</button>
+                <button onClick={handleDislikes}><img src="https://www.macmillandictionary.com/external/slideshow/full/emoji_thumbs-down_full.jpg" height={30} width={30}/></button>
                 <p>{dislikes}</p>
         </div>
     )
