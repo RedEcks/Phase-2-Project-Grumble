@@ -25,6 +25,13 @@ body {
   display: 5px;
 }
 
+.ratings button{
+    padding: 0px;
+    height: 25px;
+    border: 0px;
+    cursor: pointer;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
