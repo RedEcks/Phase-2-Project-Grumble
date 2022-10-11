@@ -12,6 +12,8 @@ function handleMusicCards({song}){
                 <h5 className="album">{song.album}</h5>
                 <h5 className="genre">{song.genre}</h5>
                 <MusicRatings/>
+            </div>
+            <div className="delete-container">
                 <MusicDelete/>
             </div>
         </li>
