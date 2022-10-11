@@ -14,9 +14,9 @@ function HandleRatings(){
 
     return(
         <div className="ratings">
-                <button onClick={handleLikes}><img src="https://www.macmillandictionary.com/external/slideshow/full/emoji_thumbs-up_full.jpg" height={25} width={25}/></button>
+                <button onClick={handleLikes}><img src="https://www.macmillandictionary.com/external/slideshow/full/emoji_thumbs-up_full.jpg" height={25} width={25} alt="like"/></button>
                 <p>{likes}</p>
-                <button onClick={handleDislikes}><img src="https://www.macmillandictionary.com/external/slideshow/full/emoji_thumbs-down_full.jpg" height={25} width={25}/></button>
+                <button onClick={handleDislikes}><img src="https://www.macmillandictionary.com/external/slideshow/full/emoji_thumbs-down_full.jpg" height={25} width={25} alt="dislike"/></button>
                 <p>{dislikes}</p>
         </div>
     )

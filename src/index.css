@@ -12,7 +12,7 @@ body {
   width: 70%;
   height: 300px;
   border: 1px solid blue;
-  display: grid;
+  display: flex;
   line-height: 0.7;
   border-radius: 30px;
   box-shadow: 12px 12px 24px #2a93b6,
@@ -21,8 +21,11 @@ body {
 
 .image{
   float: left;
-  width: 25%;
-  display: 5px;
+  width: 40%;
+  height: 90%;
+  display: 10px;
+  padding: 10px;
+  border-radius: 10%;
 }
 
 .ratings button{
