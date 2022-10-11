@@ -1,5 +1,6 @@
 import React from "react";
 import MusicRatings from "./MusicRatings"
+import MusicDelete from "./MusicDelete"
 
 function handleMusicCards({song}){
     console.log('image',song.image)
@@ -10,9 +11,8 @@ function handleMusicCards({song}){
                 <h3 className="artist-name">{song.artist}</h3>
                 <h5 className="album">{song.album}</h5>
                 <h5 className="genre">{song.genre}</h5>
-            </div>
-            <div>
                 <MusicRatings/>
+                <MusicDelete/>
             </div>
         </li>
     )
