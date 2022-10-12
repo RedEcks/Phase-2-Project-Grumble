@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import Header from './Header'
 import MusicPage from './MusicPage'
+import MusicAdder from './MusicAdder'
 
 function App() {
   const [musicInfo, setMusicInfo]=useState([])
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <MusicAdder/>
       <MusicPage musicInfo={musicInfo}/>
     </div>
   );
