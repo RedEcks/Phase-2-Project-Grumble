@@ -3,7 +3,6 @@ import './App.css';
 import Header from './Header'
 import MusicPage from './MusicPage'
 import MusicAdder from './MusicAdder'
-//import MusicFilter from "./MusicFilter"
 
 function App() {
   const [musicInfo, setMusicInfo]=useState([])
@@ -54,8 +53,7 @@ function App() {
                     {songGenres}
                 </select>
             </div>   
-        </div>
-      {/* <MusicFilter musicInfo={musicInfo}/> */}
+      </div>
       <MusicPage results={results}/>
     </div>
   );
