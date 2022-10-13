@@ -1,76 +1,88 @@
 {
-    "music": [
-      {
-        "id": 1,
-        "artist": "Aaliyah",
-        "image": "https://media.pitchfork.com/photos/5ceed89393a5362be11ee5d8/1:1/w_320,c_limit/Aaliyah_s:t.jpg",
-        "album": "Aaliyah",
-        "genre": "R&B"
-      },
-      {
-        "id": 2,
-        "artist": "Eminem",
-        "image": "https://preview.redd.it/qou5t0ko8et61.png?width=640&crop=smart&auto=webp&s=9e34ededb57a6acf7a294d5ac0dd9de65e8e545a",
-        "album": "The Slim Shady LP",
-        "genre": "Hip-Hop"
-      },
-      {
-        "id": 3,
-        "artist": "Staind",
-        "image": "https://express-images.franklymedia.com/5829/sites/14/2021/11/02164521/71BYWe6HZjL._SL1443_.jpg",
-        "album": "Break the Cycle",
-        "genre": "Rock"
-      },
-      {
-        "id": 4,
-        "artist": "Linkin Park",
-        "image": "https://images.genius.com/287eb08f9c45159e3e2202b5847fa18f.1000x1000x1.png",
-        "album": "Hybrid Theory",
-        "genre": "Rock"
-      },
-      {
-        "id": 5,
-        "artist": "Jay-Z",
-        "image": "https://www.vibe.com/wp-content/uploads/2019/03/Blueprint-1553095178.jpg",
-        "album": "The Blueprint",
-        "genre": "Hip-Hop"
-      },
-      {
-        "id": 6,
-        "artist": "Marshmello",
-        "image": "https://upload.wikimedia.org/wikipedia/en/9/91/Joytime_Album_Cover_Art.jpg",
-        "album": "Joytime",
-        "genre": "EDM"
-      },
-      {
-        "id": 7,
-        "artist": "System of a Down",
-        "image": "https://upload.wikimedia.org/wikipedia/en/6/64/SystemofaDownToxicityalbumcover.jpg",
-        "album": "Toxicity",
-        "genre": "Rock"
-      },
-      {
-        "id": 8,
-        "artist": "Eminem",
-        "image": "https://upload.wikimedia.org/wikipedia/en/a/ae/The_Marshall_Mathers_LP.jpg",
-        "album": "The Marshall Mathers LP",
-        "genre": "Hip-Hop"
-      },
-      {
-        "id": 9,
-        "artist": "System of a Down",
-        "image": "https://i.ebayimg.com/images/g/bjQAAOSwBBpbv-ww/s-l300.jpg",
-        "album": "System of a Down",
-        "genre": "Rock"
-      },
-      {
-        "id": 10,
-        "artist": "Tiesto",
-        "image": "https://upload.wikimedia.org/wikipedia/en/2/22/Tiestokaleidoscope.jpg",
-        "album": "Kaleidoscope",
-        "genre": "EDM"
-      }
-      
-    ]
-  }
-  
+  "music": [
+    {
+      "id": 1,
+      "artist": "Aaliyah",
+      "image": "https://media.pitchfork.com/photos/5ceed89393a5362be11ee5d8/1:1/w_320,c_limit/Aaliyah_s:t.jpg",
+      "album": "Aaliyah",
+      "genre": "R&B"
+    },
+    {
+      "id": 2,
+      "artist": "Eminem",
+      "image": "https://preview.redd.it/qou5t0ko8et61.png?width=640&crop=smart&auto=webp&s=9e34ededb57a6acf7a294d5ac0dd9de65e8e545a",
+      "album": "The Slim Shady LP",
+      "genre": "Hip-Hop"
+    },
+    {
+      "id": 3,
+      "artist": "Staind",
+      "image": "https://express-images.franklymedia.com/5829/sites/14/2021/11/02164521/71BYWe6HZjL._SL1443_.jpg",
+      "album": "Break the Cycle",
+      "genre": "Rock"
+    },
+    {
+      "id": 4,
+      "artist": "Linkin Park",
+      "image": "https://images.genius.com/287eb08f9c45159e3e2202b5847fa18f.1000x1000x1.png",
+      "album": "Hybrid Theory",
+      "genre": "Rock"
+    },
+    {
+      "id": 5,
+      "artist": "Jay-Z",
+      "image": "https://www.vibe.com/wp-content/uploads/2019/03/Blueprint-1553095178.jpg",
+      "album": "The Blueprint",
+      "genre": "Hip-Hop"
+    },
+    {
+      "id": 6,
+      "artist": "Marshmello",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/91/Joytime_Album_Cover_Art.jpg",
+      "album": "Joytime",
+      "genre": "EDM"
+    },
+    {
+      "id": 7,
+      "artist": "System of a Down",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/64/SystemofaDownToxicityalbumcover.jpg",
+      "album": "Toxicity",
+      "genre": "Rock"
+    },
+    {
+      "id": 8,
+      "artist": "Eminem",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/ae/The_Marshall_Mathers_LP.jpg",
+      "album": "The Marshall Mathers LP",
+      "genre": "Hip-Hop"
+    },
+    {
+      "id": 9,
+      "artist": "System of a Down",
+      "image": "https://i.ebayimg.com/images/g/bjQAAOSwBBpbv-ww/s-l300.jpg",
+      "album": "System of a Down",
+      "genre": "Rock"
+    },
+    {
+      "id": 10,
+      "artist": "Tiesto",
+      "image": "https://upload.wikimedia.org/wikipedia/en/2/22/Tiestokaleidoscope.jpg",
+      "album": "Kaleidoscope",
+      "genre": "EDM"
+    },
+    {
+      "id": 11,
+      "artist": "test",
+      "image": "test",
+      "album": "test",
+      "genre": "test"
+    },
+    {
+      "id": 12,
+      "artist": "Sistar",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/3a/A_cover_after_an_album.jpg",
+      "album": "Give It To Me",
+      "genre": "K-Pop"
+    }
+  ]
+}

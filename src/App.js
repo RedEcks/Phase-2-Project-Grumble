@@ -13,13 +13,11 @@ function App() {
       .then((data)=>setMusicInfo(data))
   },[])
 
-  console.log("Music Info",musicInfo.genre)
   const [musicCategories,setMusicCatagories]=useState("All")
 
    function handleCategorieChange(event){
        setMusicCatagories(event.target.value)
    }
-   console.log("MusicCategories",musicCategories)
 
    let results = musicInfo;
    if (musicCategories !== 'All') {
@@ -39,14 +37,14 @@ function App() {
           songGenres.push(<option value={songGenre} key={songGenre}>{songGenre}</option>);
       }
   });
-  console.log("results",results)
+  
 
   return (
     
     <div className="App">
 
       <Header/>
-      <MusicAdder/>
+      <MusicAdder musicInfo={musicInfo}/>
       <div className="nav-bar">
             <div className="Filter">
                 <select name="filter" onClick={handleCategorieChange}>
