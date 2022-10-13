@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header'
 import MusicPage from './MusicPage'
 import MusicAdder from './MusicAdder'
+//import MusicFilter from "./MusicFilter"
 
 function App() {
   const [musicInfo, setMusicInfo]=useState([])
@@ -13,11 +14,49 @@ function App() {
       .then((data)=>setMusicInfo(data))
   },[])
 
+  console.log("Music Info",musicInfo.genre)
+  const [musicCategories,setMusicCatagories]=useState("All")
+
+   function handleCategorieChange(event){
+       setMusicCatagories(event.target.value)
+   }
+   console.log("MusicCategories",musicCategories)
+
+   let results = musicInfo;
+   if (musicCategories !== 'All') {
+       results = musicInfo.filter((song)=>{
+           if(song.genre===musicCategories){
+               return(song)
+           }
+       })
+   }
+
+  let songDictionary = {};
+  let songGenres = [<option value="All" key="All">All</option>];
+  musicInfo.forEach((song) => {
+      let songGenre = song.genre;
+      if (!songDictionary[songGenre]) {
+          songDictionary[songGenre] = true;
+          songGenres.push(<option value={songGenre} key={songGenre}>{songGenre}</option>);
+      }
+  });
+  console.log("results",results)
+
   return (
+    
     <div className="App">
+
       <Header/>
       <MusicAdder/>
-      <MusicPage musicInfo={musicInfo}/>
+      <div className="nav-bar">
+            <div className="Filter">
+                <select name="filter" onClick={handleCategorieChange}>
+                    {songGenres}
+                </select>
+            </div>   
+        </div>
+      {/* <MusicFilter musicInfo={musicInfo}/> */}
+      <MusicPage results={results}/>
     </div>
   );
 }

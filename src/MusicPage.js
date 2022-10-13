@@ -1,13 +1,11 @@
 import React from "react";
 import MusicListings from "./MusicListings"
-import MusicFilter from "./MusicFilter"
 
-function handleMusicList({musicInfo}){
+function handleMusicList({results}){
 
     return (
         <main>
-            <MusicFilter musicInfo={musicInfo}/>
-            <MusicListings musicInfo={musicInfo}/>
+            <MusicListings musicInfo={results}/>
         </main>
     )
 
