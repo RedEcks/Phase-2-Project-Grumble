@@ -1,10 +1,15 @@
 import React from "react";
 
 
-function handleDelete(){
-
+function handleDelete({song}){
+    
     function deleteCard(){
         console.log("Hi")
+        fetch(`http://localhost:4000/music/${song.id}`,{
+            method: "DELETE",
+        })
+            .then((r)=>r.json())
+            .then(()=>console.log("deleted"))
     }
 
     return( 

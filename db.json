@@ -71,17 +71,17 @@
       "genre": "EDM"
     },
     {
-      "id": 11,
-      "artist": "test",
-      "image": "test",
-      "album": "test",
-      "genre": "test"
-    },
-    {
       "id": 12,
       "artist": "Sistar",
       "image": "https://upload.wikimedia.org/wikipedia/en/3/3a/A_cover_after_an_album.jpg",
       "album": "Give It To Me",
+      "genre": "K-Pop"
+    },
+    {
+      "id": 13,
+      "artist": "BTS",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/db/BTS_-_Butter.png",
+      "album": "Butter",
       "genre": "K-Pop"
     }
   ]

@@ -28,9 +28,9 @@ function HandleMusicAdder({musicInfo}){
     }
     
     
-    function handleSubmit(event){
+    function handleSubmit(){
         handleNewId()
-        event.preventDefault();
+        //event.preventDefault();
         const newMusicData=  {
             id: newMusicID,
             artist: newMusicArtist,

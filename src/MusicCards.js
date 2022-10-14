@@ -14,7 +14,7 @@ function handleMusicCards({song}){
                 <MusicRatings/>
             </div>
             <div className="delete-container">
-                <MusicDelete/>
+                <MusicDelete song={song}/>
             </div>
         </li>
     )
