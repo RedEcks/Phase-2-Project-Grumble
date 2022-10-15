@@ -79,10 +79,10 @@
     },
     {
       "id": 13,
-      "artist": "BTS",
-      "image": "https://upload.wikimedia.org/wikipedia/en/d/db/BTS_-_Butter.png",
-      "album": "Butter",
-      "genre": "K-Pop"
+      "artist": "Guns N Roses",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/60/GunsnRosesAppetiteforDestructionalbumcover.jpg",
+      "album": "Ap",
+      "genre": "Rock"
     }
   ]
 }
