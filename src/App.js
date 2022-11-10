@@ -8,7 +8,6 @@ import NavBar from './NavBar';
 
 function App() {
   const [musicInfo, setMusicInfo]=useState([])
-  const [page, setPage]=useState("/")
 
   useEffect(()=>{
     fetch(" http://localhost:4000/music")
@@ -48,7 +47,7 @@ function App() {
     
     <div className="App">
       <Header/>
-      <NavBar onChangePage={setPage}/>
+      <NavBar/>
       <div className="nav-bar">
                 <div className="Filter">
                     <select name="filter" onClick={handleCategorieChange}>
