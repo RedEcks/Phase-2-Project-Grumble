@@ -83,6 +83,13 @@
       "image": "https://upload.wikimedia.org/wikipedia/en/6/60/GunsnRosesAppetiteforDestructionalbumcover.jpg",
       "album": "Ap",
       "genre": "Rock"
+    },
+    {
+      "id": 14,
+      "artist": "Beyonce",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/96/I_Am..._Sasha_Fierce.png",
+      "album": "I am...Sasha Fierce",
+      "genre": "R&B"
     }
   ]
 }

@@ -24,7 +24,7 @@ function HandleMusicAdder({musicInfo}){
     }
 
     function handleNewId(){
-        return setNewMusicID(newMusicID + 1)
+        return setNewMusicID(newMusicID => newMusicID + 1)
     }
     
     

@@ -3,9 +3,12 @@ import './App.css';
 import Header from './Header'
 import MusicPage from './MusicPage'
 import MusicAdder from './MusicAdder'
+import { Routes, Route } from "react-router-dom";
+import NavBar from './NavBar';
 
 function App() {
   const [musicInfo, setMusicInfo]=useState([])
+  const [page, setPage]=useState("/")
 
   useEffect(()=>{
     fetch(" http://localhost:4000/music")
@@ -13,6 +16,7 @@ function App() {
       .then((data)=>setMusicInfo(data))
   },[])
 
+  
   const [musicCategories,setMusicCatagories]=useState("All")
 
    function handleCategorieChange(event){
@@ -40,19 +44,23 @@ function App() {
   
 
   return (
+
     
     <div className="App">
-
       <Header/>
-      <MusicAdder musicInfo={musicInfo}/>
+      <NavBar onChangePage={setPage}/>
       <div className="nav-bar">
-            <div className="Filter">
-                <select name="filter" onClick={handleCategorieChange}>
-                    {songGenres}
-                </select>
-            </div>   
+                <div className="Filter">
+                    <select name="filter" onClick={handleCategorieChange}>
+                        {songGenres}
+                    </select>
+                </div>   
       </div>
-      <MusicPage results={results}/>
+      <Routes>
+        <Route path="/add-music"  element={<MusicAdder musicInfo={musicInfo}/>} />
+
+        <Route path="/music-page" element={<MusicPage results={results}/>} />
+      </Routes>
     </div>
   );
 }

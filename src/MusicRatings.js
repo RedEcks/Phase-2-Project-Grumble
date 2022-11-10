@@ -5,11 +5,11 @@ function HandleRatings(){
     const [dislikes,setDislikes]= useState(0);
 
     function handleLikes(){
-        setLikes(likes + 1);
+        setLikes(likes => likes + 1);
     }
 
     function handleDislikes(){
-        setDislikes(dislikes + 1);
+        setDislikes(dislikes => dislikes + 1);
     }
 
     return(
