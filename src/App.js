@@ -4,6 +4,7 @@ import Header from './Header'
 import MusicPage from './MusicPage'
 import MusicAdder from './MusicAdder'
 import { Routes, Route } from "react-router-dom";
+import MusicHome from './MusicHome';
 import NavBar from './NavBar';
 
 function App() {
@@ -56,8 +57,8 @@ function App() {
                 </div>   
       </div>
       <Routes>
+        <Route path="/"  element={<MusicHome/>} />
         <Route path="/add-music"  element={<MusicAdder musicInfo={musicInfo}/>} />
-
         <Route path="/music-page" element={<MusicPage results={results}/>} />
       </Routes>
     </div>
