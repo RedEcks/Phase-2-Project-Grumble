@@ -98,3 +98,7 @@ nav a:active{
   color:tomato;
   border-bottom: 2px solid tomato;
 }
+
+.intro{
+  text-align: center;
+}
