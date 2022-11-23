@@ -58,7 +58,7 @@ function App() {
       </div>
       <Routes>
         <Route path="/"  element={<MusicHome/>} />
-        <Route path="/add-music"  element={<MusicAdder musicInfo={musicInfo}/>} />
+        <Route path="/add-music"  element={<MusicAdder setMusicInfo={setMusicInfo} musicInfo={musicInfo}/>} />
         <Route path="/music-page" element={<MusicPage results={results}/>} />
       </Routes>
     </div>

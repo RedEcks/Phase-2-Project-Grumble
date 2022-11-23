@@ -1,11 +1,10 @@
 import React, {useState} from "react";
 
-function HandleMusicAdder({musicInfo}){
+function HandleMusicAdder({musicInfo, setMusicInfo}){
     const [newMusicArtist, setNewMusicArtist]=useState("")
     const [newMusicImageURL, setNewMusicImageURL]=useState("")
     const [newMusicAlbum, setNewMusicAlbum]=useState("")
     const [newMusicGenre, setNewMusicGenre]=useState("")
-    const [newMusicID, setNewMusicID]=useState(musicInfo.length)
 
     function handleNewArtist(event){
         setNewMusicArtist(event.target.value)
@@ -22,17 +21,12 @@ function HandleMusicAdder({musicInfo}){
     function handleNewGenre(event){
         setNewMusicGenre(event.target.value)
     }
-
-    function handleNewId(){
-        return setNewMusicID(newMusicID => newMusicID + 1)
-    }
     
     
-    function handleSubmit(){
-        handleNewId()
-        //event.preventDefault();
+    function handleSubmit(event){
+        
+        event.preventDefault();
         const newMusicData=  {
-            id: newMusicID,
             artist: newMusicArtist,
             image: newMusicImageURL,
             album: newMusicAlbum,
@@ -48,7 +42,8 @@ function HandleMusicAdder({musicInfo}){
             body: JSON.stringify(newMusicData)
         })
             .then((r)=>r.json())
-            .then((newItem)=>console.log("New Item", newItem))
+            .then((newItem)=>setMusicInfo(musicInfo.push(newItem)))
+            .then(()=>console.log(window.location.reload(false)))
         
     }
 
