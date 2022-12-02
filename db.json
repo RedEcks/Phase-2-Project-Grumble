@@ -90,6 +90,34 @@
       "image": "https://upload.wikimedia.org/wikipedia/en/9/96/I_Am..._Sasha_Fierce.png",
       "album": "I am...Sasha Fierce",
       "genre": "R&B"
+    },
+    {
+      "artist": "jj",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6e/Rihanna_-_Music_of_the_Sun.png",
+      "album": "jj",
+      "genre": "jj",
+      "id": 17
+    },
+    {
+      "artist": "jj",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6e/Rihanna_-_Music_of_the_Sun.png",
+      "album": "nn",
+      "genre": "jj",
+      "id": 18
+    },
+    {
+      "artist": "jj",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6e/Rihanna_-_Music_of_the_Sun.png",
+      "album": "nn",
+      "genre": "jj",
+      "id": 19
+    },
+    {
+      "artist": "n",
+      "image": "https://upload.wikimedia.org/wikipedia/en/6/6e/Rihanna_-_Music_of_the_Sun.png",
+      "album": "kk",
+      "genre": "ll",
+      "id": 20
     }
   ]
 }

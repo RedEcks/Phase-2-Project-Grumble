@@ -32,7 +32,7 @@ function HandleMusicAdder({musicInfo, setMusicInfo}){
             album: newMusicAlbum,
             genre: newMusicGenre,
         }
-        console.log("New Music Data", newMusicData)
+        
 
         fetch("http://localhost:4000/music",{
             method:"POST",
@@ -42,9 +42,9 @@ function HandleMusicAdder({musicInfo, setMusicInfo}){
             body: JSON.stringify(newMusicData)
         })
             .then((r)=>r.json())
-            .then((newItem)=>setMusicInfo(musicInfo.push(newItem)))
-            .then(()=>console.log(window.location.reload(false)))
-        
+            .then((newItem)=>{setMusicInfo([...musicInfo,newItem])
+            })
+            alert("Music added Successfully! Return to Music Page.")
     }
 
 
@@ -55,7 +55,7 @@ function HandleMusicAdder({musicInfo, setMusicInfo}){
                 <input type="text" name="image" placeholder="Image URL" onChange={handleNewImageURL}/>
                 <input type="text" name="name" placeholder="Album" onChange={handleNewAlbum}/>
                 <input type="text" name="name" placeholder="Genre" onChange={handleNewGenre}/>
-                <button type="submit" onClick={handleSubmit}>Add Music</button>
+                <button type="submit" onClick={handleSubmit} >Add Music</button>
             </form>
         </div>
     )

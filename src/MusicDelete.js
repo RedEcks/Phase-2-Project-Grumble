@@ -9,7 +9,7 @@ function handleDelete({song}){
             method: "DELETE",
         })
             .then((r)=>r.json())
-            .then(()=>console.log(window.location.reload(false)))
+            //.then(()=>console.log(window.location.reload(false)))
     }
 
     return( 
